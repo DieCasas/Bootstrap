@@ -1,0 +1,85 @@
+/* Estilos que complementan al header*/
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    }
+
+header a {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Estilos del main*/
+main ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+/* Estilos presentacion */
+
+#presentacion {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 220px;
+}
+
+/* Estilos de servicios*/
+
+#servicios {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 40px;
+ }
+
+article {
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+}
+article h3 {
+    padding: 15px 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+article p {
+    text-align: center;
+}
+
+
+/* Acerca de */
+
+#acercaDe {
+    margin: 40px;
+    padding: 80px;
+}
+
+
+/* Profesionales */
+
+#profesionales {
+    margin: 80px;
+
+}
+
+/*Contacto*/
+
+#contacto {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.column {
+    display: flex;
+    flex-flow: column;
+}
